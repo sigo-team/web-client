@@ -1,0 +1,13 @@
+@import "@mantine/core/styles.css";
+
+:root {
+    --green-1: #2C9C29;
+    --green-2: #147A18;
+    --green-3: #0B680F;
+}
+
+/** {*/
+/*    font-family: 'Open Sans', sans-serif;*/
+/*    font-weight: 700;*/
+/*    color: white;*/
+/*}*/
