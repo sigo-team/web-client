@@ -35,6 +35,7 @@ const NewRoom = () => {
                                     {...props}
                                     rightSection={<IconUpload/>}
                                     classNames={{root: style.button_upload__root}}
+                                    justify="space-between"
                                 >
                                     {"Загрузить пакет"}
                                 </Button>
@@ -53,7 +54,7 @@ const NewRoom = () => {
                             classNames={{label: style.checkbox__label, inner: style.checkbox__inner}}
                         />
                     </Stack>
-                    <Button disabled={!file}>
+                    <Button disabled={!file} classNames={{root: style.button_submit}}>
                         Создать комнату
                     </Button>
                 </Stack>

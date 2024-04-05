@@ -18,10 +18,7 @@
     height: 36px;
     background-color: var(--green-3);
 
-
-    &:hover {
-        background-color: var(--green-2);
-    }
+    border-radius: var(--mantine-radius-default);
 }
 
 .pill__label {
@@ -47,14 +44,18 @@
     height: 36px;
     flex: none;
 
+    border-radius: var(--mantine-radius-default);
+
     &:hover {
-        color: red;
+        background-color: var(--green-2);
     }
 }
 
 .button_upload__root {
+    width: 200px;
     background-color: var(--green-3);
-    &:hover{
+
+    &:hover {
         background-color: var(--green-2);
     }
 }
@@ -72,5 +73,18 @@
     & input:checked {
         border: 2px solid var(--green-3);
         background-color: var(--green-3);
+    }
+}
+
+.button_submit {
+    width: 200px;
+    background-color: var(--green-3);
+
+    &:hover {
+        background-color: var(--green-2);
+    }
+
+    &[disabled] {
+        background-color: white;
     }
 }
