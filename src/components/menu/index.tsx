@@ -96,7 +96,7 @@ const Menu = () => {
                                    </ActionIcon>
                                }/>
                     <Stack gap="7px">
-                        <Button fw="700" className={style.button}>
+                        <Button component="a" href="/new" fw="700" className={style.button}>
                             Создать комнату
                         </Button>
                         <Button color="yellow.6" fw="700" className={style.button} disabled={chosen === 0}>
