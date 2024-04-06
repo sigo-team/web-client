@@ -6,8 +6,7 @@
 }
 
 .widget {
-    width: 400px;
-    height: 350px;
+    width: 700px;
     background-color: var(--green-1);
     border-radius: var(--mantine-radius-default);
     padding: 7px;
@@ -19,6 +18,8 @@
     background-color: var(--green-3);
 
     border-radius: var(--mantine-radius-default);
+
+    justify-content: space-between;
 }
 
 .pill__label {
@@ -39,9 +40,10 @@
 
 .pill__remove {
     color: white;
-    stroke-width: 3px;
-    width: 36px;
-    height: 36px;
+    width: 28px;
+    padding: 0;
+    height: 28px;
+    margin: 4px;
     flex: none;
 
     border-radius: var(--mantine-radius-default);
@@ -53,6 +55,8 @@
 
 .button_upload__root {
     width: 200px;
+    height: 36px;
+    padding: 1px 8px;
     background-color: var(--green-3);
 
     &:hover {
@@ -62,6 +66,7 @@
 
 .checkbox__label {
     color: white;
+    font-weight: 600;
 }
 
 .checkbox__inner {
@@ -87,4 +92,16 @@
     &[disabled] {
         background-color: white;
     }
+}
+
+.number_input__label {
+    color: white;
+    font-weight: 600;
+}
+
+.number_input__input {
+    background-color: var(--green-3);
+    border: none;
+    color: white;
+    font-weight: 600;
 }
